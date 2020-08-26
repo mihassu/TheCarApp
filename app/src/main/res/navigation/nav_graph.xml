@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notes_fragment">
+
+    <fragment
+        android:id="@+id/notes_fragment"
+        android:name="ru.mihassu.thecarapp.ui.notes.NotesFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_notes">
+
+        <action
+            android:id="@+id/action_SparePartsFragment_to_noteDetailsFragmentVP"
+            app:destination="@id/note_details_fragment_vp"
+            app:enterAnim="@anim/slide_to_left_show"
+            app:exitAnim="@anim/slide_to_left_hide"
+            app:popEnterAnim="@anim/slide_to_right_show"
+            app:popExitAnim="@anim/slide_to_right_hide"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/note_details_fragment_vp"
+        android:name="ru.mihassu.thecarapp.ui.notedetails.NoteDetailsFragmentVP"
+        android:label="NoteDetailsFragmentVP" >
+        <argument
+            android:name="position"
+            app:argType="integer"/>
+    </fragment>
+</navigation>

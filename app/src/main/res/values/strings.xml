@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TheCarApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="part_name">Что менялось</string>
+    <string name="comment">Комментарий</string>
+    <string name="date">Дата</string>
+    <string name="mileage">Пробег</string>
+    <string name="edit">Редактировать</string>
+    <string name="apply">Применить</string>
+
+    <!--    NoteDetailsFragment-->
+    <string name="add_note">Добавить запись</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="unknow_format">Неверный формат</string>
+
+
+    <integer name="slide_anim_duration">300</integer>
+    <integer name="width_on_screen">1100</integer>
+    <integer name="width_out_screen">-1100</integer>
+
+<!--    SelectCarActivity-->
+    <string name="select">Выбрать</string>
+    <string name="select_car">Выбрать машину</string>
+
+
+</resources>

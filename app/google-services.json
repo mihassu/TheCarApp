@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "619668862784",
+    "firebase_url": "https://the-car-app.firebaseio.com",
+    "project_id": "the-car-app",
+    "storage_bucket": "the-car-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619668862784:android:15d6e3d950cd2ef046aca5",
+        "android_client_info": {
+          "package_name": "ru.mihassu.thecarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619668862784-tse4v44qfvbm12ovqksv04u9uadv5mgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCusOdmigjX--VBBe2lKIgCyLtFpcb5XIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619668862784-tse4v44qfvbm12ovqksv04u9uadv5mgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
